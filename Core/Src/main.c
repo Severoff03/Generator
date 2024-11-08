@@ -36,7 +36,7 @@ int main(void)
 		Wave_Square(amp, freq);
 		break;
 		case '2':
-		Wave_Triangale(amp, freq);
+		Wave_Triangle(amp, freq);
 		break;
 		case '3':
 		Wave_Sawtooth(amp, freq);
@@ -45,7 +45,7 @@ int main(void)
 		Wave_Sin(amp, freq);
 		break;
 		case '5':
-		Wave_Noise(amp);`
+		Wave_Noise(amp);
 		break;
 
 

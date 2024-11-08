@@ -23,7 +23,7 @@ void Wave_Square(uint16_t amplitude, uint32_t freq){
 	}
 }
 
-void Wave_Triangale(uint16_t amplitude, uint32_t freq){
+void Wave_Triangle(uint16_t amplitude, uint32_t freq){
 
 	uint32_t Tics=DAC_Freq/freq;
 	uint16_t step=2*amplitude/Tics;
