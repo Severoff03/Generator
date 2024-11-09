@@ -1,5 +1,0 @@
-../Core/Src/Wave.c:13:6:Wave_Square	3
-../Core/Src/Wave.c:26:6:Wave_Triangale	3
-../Core/Src/Wave.c:42:6:Wave_Sawtooth	3
-../Core/Src/Wave.c:54:6:Wave_Sin	5
-../Core/Src/Wave.c:75:6:Wave_Noise	2

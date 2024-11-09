@@ -15,15 +15,18 @@
 
 uint8_t form = 1;
 uint16_t amp=1023;
-uint32_t freq = 1;
+uint32_t freq = 10;
 
 
 int main(void)
 {
 
 	DAC_Init();
+	//DAC_Output(1023);
 
-	USART_Read();
+	while(1){
+	Wave_Sin(amp, freq);
+	}
 /*
 	while(1){
 

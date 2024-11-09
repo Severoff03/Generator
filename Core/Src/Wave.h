@@ -16,6 +16,7 @@ void Wave_Square(uint16_t amplitude, uint32_t freq);
 void Wave_Triangle(uint16_t amplitude, uint32_t freq);
 void Wave_Sawtooth(uint16_t amplitude, uint32_t freq);
 void Wave_Sin(uint16_t amplitude, uint32_t freq);
+void Wave_Sin_Macked(uint16_t amplitude, uint32_t freq);
 void Wave_Noise(uint16_t amplitude);
 
 
